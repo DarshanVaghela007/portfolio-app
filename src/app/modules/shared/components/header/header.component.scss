@@ -1,0 +1,45 @@
+// variables
+$heading-font-weight: 800;
+$heading-font-size: 20px;
+$nav-item-hover-color: rgb(175, 140, 95);
+
+// css
+#main-navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: $heading-font-weight;
+
+  // here, space between nav-link and :hover is not allowed (if .nav-link:hover)
+  .nav-link {
+    color: black;
+    font-size: $heading-font-size;
+    cursor: pointer;
+    margin: 0rem .75rem;
+    &:active,
+    &:focus {
+      background-color: $nav-item-hover-color;
+    }
+  }
+}
+
+.head {
+  // calc function will calculate given values and apply in one unit (in px)
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+  background-color: rgb(175, 140, 95);
+  .heading {
+    color: black;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+  }
+  .sub-heading {
+    font-size: 1.25rem;
+  }
+  .head-avatar {
+    width: 20rem;
+  }
+}
+
+
+
+

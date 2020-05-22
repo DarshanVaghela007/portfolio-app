@@ -1,0 +1,21 @@
+.portfolio {
+  .portfolio-item {
+      cursor: pointer;
+      position: relative;
+      display: block;
+      max-width: 25rem;
+      border-radius: .5rem;
+      overflow: hidden;
+  }
+}
+
+#about {
+  padding-bottom: 6rem;
+  padding-top: 1rem;
+  background-color: rgb(175, 140, 95);
+}
+
+#contact {
+  padding-bottom: 6rem;
+  padding-top: 1rem;
+}
